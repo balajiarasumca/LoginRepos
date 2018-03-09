@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_new"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.githubexample.Login">
+
+            <ImageView
+                android:id="@+id/img_git_logo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logo_git"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textAllCaps="false"
+                android:background="@drawable/button_bg_rounded_corners"/>
+
+</LinearLayout>
